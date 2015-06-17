@@ -19,6 +19,8 @@ three concepts:
 **one JVM implementation**;
 **a JVM runtime instance**.
 
+[code.png]: images/code.png "optional title attribute"
+
 we are going to talk about JVM specification.
 
 A JVM consists of 1) ClassLoader; 2)runtime data areas; 3)execute engine.
