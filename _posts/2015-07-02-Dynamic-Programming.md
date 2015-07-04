@@ -23,9 +23,8 @@ keywords: Algorithm
 1. dynamic programming solve small sub-problems, which may lead to re-compute the same sub-problem if we do not cache the answers;   
 2. divide and conquer just solve unique sub-problems and combine the answers.   
 
-##Example: Longest Commen Sequence
-
-
+##Example1: Longest Commen Sequence
+input: 
 
 
 {% highlight java %}
