@@ -24,7 +24,7 @@ keywords: Algorithm
 2. divide and conquer just solve unique sub-problems and combine the answers.   
 
 ##Example1: Longest Commen Sequence
-input: 
+input: sdfs
 
 
 {% highlight java %}
