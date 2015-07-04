@@ -4,11 +4,8 @@ title: Dynamic Programming
 description: This article introduce Dynamic Programming, a useful programming design paradigm.
 keywords: Algorithm
 ---
-# Dynamic Programming
 
-标签（空格分隔）： Algorithm
-
----
+    
 ##Dynamic Programming: A good algorithm design paradigm  
 + correctness: get all the answer of the whole problem;  
 + efficiency: avoid re-computation.  
