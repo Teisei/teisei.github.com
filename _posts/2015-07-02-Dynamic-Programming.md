@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Dynamic Programming
 description: This article introduce Dynamic Programming, a useful programming design paradigm.
@@ -6,7 +6,7 @@ keywords: Algorithm
 ---
 # Dynamic Programming
 
-标签（空格分隔）： Java Algorithm
+标签（空格分隔）： Algorithm
 
 ---
 ##Dynamic Programming: A good algorithm design paradigm  
