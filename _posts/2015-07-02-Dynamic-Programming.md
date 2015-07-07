@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Dynamic Programming
-description: This article introduce Dynamic Programming, a useful programming design paradigm.
-categories: jekyll Algorithms
+title:  "Dynamic Programming"
+date:   2015-02-10 15:14:54
+categories: jekyll
 ---
     
 ##Dynamic Programming: A good algorithm design paradigm  
