@@ -2,7 +2,7 @@
 layout: post
 title:  "Dynamic Programming"
 date:   2015-02-10 15:14:54
-categories: jekyll
+categories: jekyll Algorithms
 ---
     
 ##Dynamic Programming: A good algorithm design paradigm  
