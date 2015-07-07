@@ -6,6 +6,7 @@ extending a Java class Thread or implementing a Java interface Runnable.
 A Comparison between these two ways are given.
 keywords: Java, Multithreading
 ---  
+# Hello World  
 # Java multithreading  
 Thread is a block of code which can be execute concurrently with other threads in the JVM.
 To implement Java thread is just to specify what code a thread should run.  
