@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Runnable-or-Thread
-description: This article introduces two ways to implement Java multithreading, 
-extending a Java class Thread or implementing a Java interface Runnable.
-A Comparison between these two ways are given.
-keywords: Java, Multithreading
+title:  "Runnable or Thread"
+date:   2015-07-05 15:14:54
+categories: java multithreading
 ---
 
 
