@@ -1,9 +1,18 @@
 ---
 layout: post
-title: Analysis of Algorithms
-description: This article introduce analysis of algorithms.
-keywords: Algorithm
+title: About Teisei
+description: 
+keywords: compute science
 ---  
+Name: Teisei  
+Chinese Name: Cheng Ding  
+
+## Interests  
++ Data Structures and Algorithms  
++ Distributed Systems  
++ Information Retrieval
+
+
 
 # 这是 H1   
 ## This is H2   
