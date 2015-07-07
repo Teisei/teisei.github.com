@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript 函数"
-date:   2015-06-11 14:06:05
+date:   2009-06-11 14:06:05
 categories: JavaScript
 excerpt: JavaScript 函数
 ---

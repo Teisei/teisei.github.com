@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript 中的闭包"
-date:   2015-06-14 14:06:05
+date:   2009-06-14 14:06:05
 categories: JavaScript
 excerpt: JavaScript closure 闭包
 ---

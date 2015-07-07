@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript 中的 this"
-date:   2015-06-12 14:06:05
+date:   2009-06-12 14:06:05
 categories: JavaScript
 excerpt: JavaScript this
 ---

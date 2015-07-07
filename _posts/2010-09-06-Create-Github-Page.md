@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 在 github 上建立 pages 的过程
-description: 这篇文章介绍的是使用 github 搭建自己的 pages。
-keywords: GitHub, pages
+title:  "在 github 上建立 pages 的过程"
+date:   2010-09-06 15:14:54
+categories: github
 ---
+
 ##建立项目-Repository
   首先在 GitHub 上建立自己库，例如一个 test 库;
   接着在本地建立 test 库的连接：
