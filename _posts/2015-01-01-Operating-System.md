@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Operating System
-description: This article introduce operating systems.
-keywords: compute science
----  
+title:  "Operating System"
+date:   2015-01-01 18:43:00
+categories: CS System-design 
+---
 
 # Introduction to Operating Systems  
 

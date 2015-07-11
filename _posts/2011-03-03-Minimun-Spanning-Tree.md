@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Sorting Algorithms
-description: This article introduces different sorting algorithms.
-keywords: Algorithm Sorting
----  
+title: "Minimun Spanning Tree"
+date: 2011-03-03 18:43:00
+categories: algorithm
+---
 
 # 这是 H1   
 ## This is H2   

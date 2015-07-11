@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Simple-Java-Calculator
-description: Four-Arithmetic-Operation.
-keywords: blog MarkDown
----  
+title: "Simple Java Calculator"
+date: 2011-06-06 18:43:00
+categories: Java
+---
 
 # 这是 H1   
 ## This is H2   

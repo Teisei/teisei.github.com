@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Inside-Java-Virtual-Machine
-description: This article is an Introduction to Java Virtual Machine.
-keywords: Java
+title: "Inside JVM"
+date: 2011-06-16 18:43:00
+categories: JVM
 ---
+
 # Java: JVM
 
 标签（空格分隔）： Java JVM

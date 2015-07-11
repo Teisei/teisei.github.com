@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Onsite-Interview-in-Tokyo-Japan
-description: During my **-year in university, I got a chance to have onsite interview in Tokyo, Japan.
-keywords: Interview Japan
----  
+title: "Onsite Interview in Tokyo"
+date: 2013-06-18 18:43:00
+categories: Interview Japan
+---
 
 # 这是 H1   
 ## This is H2   

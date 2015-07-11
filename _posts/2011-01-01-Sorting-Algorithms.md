@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sorting Algorithms"
-date: 2011-10-25 18:43:00
+date: 2011-01-01 18:43:00
 categories: algorithm sorting
 ---  
 

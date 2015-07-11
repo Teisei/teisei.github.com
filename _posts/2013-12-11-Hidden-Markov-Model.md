@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Usage-MarkDown
-description: This article introduce how write pages using markdown.
-keywords: blog MarkDown
----  
+title: "Hidden Markov Model"
+date: 2013-12-11 18:43:00
+categories: Model Probability-statistics 
+---
 
 # 这是 H1   
 ## This is H2   

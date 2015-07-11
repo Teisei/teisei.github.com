@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Divide-and-Conquer-MergeSort
-description: This article introduce Divide-and-Conquer, a useful programming design paradigm.
-keywords: Algorithm
+title: "Divide and Conquer - MergeSort"
+date: 2011-1-01 18:43:00
+categories: algorithm
 ---
+
 # Divide-and-Conquer: MergeSort
 
 标签（空格分隔）： Java Algorithm

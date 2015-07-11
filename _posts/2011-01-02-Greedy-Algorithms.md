@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Usage-MarkDown
-description: This article introduce how write pages using markdown.
-keywords: blog MarkDown
----  
+title: "Greedy Algorithm"
+date: 2011-1-02 18:43:00
+categories: algorithm
+---
 
 # 这是 H1   
 ## This is H2   

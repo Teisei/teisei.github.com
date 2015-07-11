@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Usage-MarkDown
-description: This article introduce how write pages using markdown.
-keywords: blog MarkDown
----  
+title: "Balanced Binary Search Tree"
+date: 2011-04-02 18:43:00
+categories: algorithm data-structure
+---
 
 # 这是 H1   
 ## This is H2   

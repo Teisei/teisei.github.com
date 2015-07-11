@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Analysis of Algorithms
-description: This article introduce analysis of algorithms.
-keywords: Algorithm
+title: "Analysis of Algorithms"
+date: 2011-1-01 18:43:00
+categories: algorithm
 ---
 
 Suppose we have two algorithms, algoA and algoB, which can be used to solve a same problem with certain input data.   

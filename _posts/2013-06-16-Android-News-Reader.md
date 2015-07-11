@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Android News Reader
-description: This article introduces my second Android App, News Reader.
-keywords: Android, App
+title: "Android News Reader"
+date: 2013-06-16 18:43:00
+categories: Android Java Application
 ---
 MergeSort is a algorithm for sorting.
 Today we are going to cover this algorithm.

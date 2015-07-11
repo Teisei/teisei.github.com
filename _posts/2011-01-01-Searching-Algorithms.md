@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Sorting Algorithms
-description: This article introduces different sorting algorithms.
-keywords: Algorithm Sorting
----  
+title: "Searching Algorithms"
+date: 2011-1-01 18:43:00
+categories: algorithm
+---
 
 ## Binary Search  
 ## Interpolation search vs Binary search  

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Usage-MarkDown
-description: This article introduce how write pages using markdown.
-keywords: blog MarkDown
----  
+title: "Conditional Random Field Tagging"
+date: 2014-01-11 18:43:00
+categories: Model Probability-statistics Tagging
+---
 
 # 这是 H1   
 ## This is H2   
