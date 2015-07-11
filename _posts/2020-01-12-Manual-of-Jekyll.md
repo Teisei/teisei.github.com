@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manual of Jekyll"
-date: 2009-10-25 18:43:00
+date: 2020-1-12 18:43:00
 categories: tech
 ---
 
