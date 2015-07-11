@@ -26,7 +26,8 @@ categories: algorithm sorting
 ---
 
 ## QuickSort  
-### A 'divide and conquer' algorithm;
+
+#### A 'divide and conquer' algorithm
 * Divide:
   + Given a int array, we pick an element as pivot;
   + put elements smaller than pivot left to pivot,
