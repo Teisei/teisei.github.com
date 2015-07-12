@@ -77,6 +77,95 @@ categories: algorithm sorting
 
 ## Merge Sort  
 
+### Basic idea   
+
+#### Given a array of length n, we do not try to sort it.
+* **Divide**:  Divide it into two sub-array a[left,...,median], a[median+1,...,right];
+* **Conquer**: Recursively solve each of the two sub-problems;
+* **Combine**: Since Two sub-problems are sorted, we combine the two sub-solutions.
+
+#### How to combine?
+* **1** Given two sorted sub-array, we want to combine them into a whole sorted array.
+* **2** We create a new array with length of the sum of the two sub-arrays for the combined results;
+* **3** Each time we pick the smaller(bigger) one between the head of two sub-array, and add it to the new array from head to tail;
+* **4** We repeat doing **step3** until there is no element left to pick in one of the two sub-arrays. 
+* **5** We add the left elements in the original sub-array into the new array. And we get the whole sorted array.
+
+### Analysis
+* T(n) = 2T(n/2) + n
+* O(n Log n)
+
+### C code
+
+	#include <iostream>
+    #include <cstdio>
+    #include <cstring>
+    #include <cstdlib>
+    
+    using namespace std;
+    
+    void print_the_array(int a[], int len){
+    	for(int i=0;i<len;i++)
+    		printf("%2d ",a[i]);
+    	printf("\n");
+    }
+    
+    void swap(int *a, int *b){
+    	int t=*a;
+    	*a=*b;
+    	*b=t;
+    }
+    
+    int find_median(int l, int r){
+    	return (l+r)/2;
+    }
+    
+    void combine(int a[], int l1, int r1, int l2, int r2){
+    	int b[r1-l1+r2-l2+4];
+    	int inx1 = l1, inx2 = l2, inx0 = 0;
+    	while(inx1<=r1&&inx2<=r2)
+    		if(a[inx1]<=a[inx2])
+    			b[inx0++]=a[inx1++];
+    		else
+    			b[inx0++]=a[inx2++];
+    	while(inx1<=r1) b[inx0++]=a[inx1++];
+    	while(inx2<=r2) b[inx0++]=a[inx2++];
+    	for(int i=0;i<inx0;i++)
+    		a[i+l1] = b[i];
+    }
+    
+    void conquer(int a[], int l, int r){
+    	if(l == r) return;
+    	else{
+    		/**  divide and conquer */
+    		int median = find_median(l, r);
+    		conquer(a, l, median);
+    		conquer(a, median+1,r);
+    		/**  combine the results */
+    		combine(a, l, median, median+1, r);
+    	}
+    }
+    
+    
+    
+    void merge_sort(int a[], int l, int r){
+    	conquer(a, l, r);
+    }
+    
+    int main(){
+    	// int a[] = {12, 11, 13, 5, 6, 7};
+    	int a[] = {12, 11, 13, 5, 6, 7, 1, 34, 4, 19, 24243, 88};
+    	// int a[] = {12, 11, 13};
+    	int len = sizeof(a)/sizeof(a[0]);	
+    	print_the_array(a, len);
+    
+    	merge_sort(a, 0, len-1);
+    	print_the_array(a, len);
+    	return 0;
+    }
+
+
+
 ---
 
 ## Heap Sort  
