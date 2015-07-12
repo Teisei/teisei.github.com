@@ -3,6 +3,7 @@ layout: post
 title: "Manual of Jekyll"
 date: 2020-1-12 18:43:00
 categories: tech
+excerpt: 这部分是文章摘要
 ---
 
 * content
@@ -207,5 +208,35 @@ A E	|任何是元素A的后代元素E (后代节点指A的子节点，子节点�
 A > E	|任何元素A的子元素
 E:first-child	|任何元素的第一个子元素E
 B + E	|任何元素B的下一个兄弟元素E
+
+---
+
+
+### 例子
+
+举一个作用域链的例子。
+
+    var outVariable = "我是最外层变量"; //最外层变量
+    function outFun() { //最外层函数
+        var inVariable = "内层变量";
+        function innerFun() { //内层函数
+            console.log(inVariable);
+            var tempVariable = inVariable;
+        }
+        innerFun();
+    }
+
+对最开始的代码稍加修改
+
+其作用域链为：
+
+    window
+    ├──outVariable
+    └──outFun()
+       ├──inVariable
+       └──innerFun()
+          └──tempVariable
+
+对于 `innerFun()`，其作用域链包含 3 个对象：innerFun() 自己的变量对象、outFun()的变量对象、全局变量对象。
 
 ---
