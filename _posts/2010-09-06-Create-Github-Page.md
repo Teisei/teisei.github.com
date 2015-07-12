@@ -2,7 +2,7 @@
 layout: post
 title:  "在 github 上建立 pages 的过程"
 date:   2010-09-06 15:14:54
-categories: github
+categories: tech
 ---
 
 ##建立项目-Repository

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Schedual Application"
-date: 2011-01-01 18:43:00
-categories: algorithm
+title: "Naive Bayes Model"
+date: 2013-11-20 18:43:00
+categories: Model 
 ---
+
 
 
 

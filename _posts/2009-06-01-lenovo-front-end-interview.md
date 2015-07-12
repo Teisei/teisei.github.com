@@ -2,7 +2,7 @@
 layout: post
 title:  "联想服务前端实习面试经历"
 date:   2009-06-1 14:06:05
-categories: Front-end
+categories: tech
 excerpt: 记录一下第一次面试成功的经历，联想服务前端实习
 ---
 

@@ -1,4 +1,4 @@
-w---
+---
 layout: post
 title: "Analysis of Algorithms"
 date: 2011-1-01 18:43:00
