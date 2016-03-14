@@ -7,26 +7,40 @@
 
     {% include sidebar.html %}
 
+    <div class="menu-hint hide-on-mobile"></div>
+
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            <a href="/" title="Home">{{ site.title }}</a>
+            <small>{% if page.tagline %}{{ page.tagline }}{% else %}{{ site.tagline }}{% endif %}</small>
           </h3>
         </div>
       </div>
 
       <div class="container content">
+          <!-- <div class="message"></div> -->
         {{ content }}
       </div>
+
+      <a href="{{ site.my_github }}/willdurand.github.com" class="ribbon">
+          <img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub" width="149" height="149">
+      </a>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-1.6.2.min.js"><\/script>')</script>
+    <script src="/js/jquery.ui.totop.js" type="text/javascript"></script>
+    <script src="/js/anchorify.js" type="text/javascript"></script>
     <script>
+      $().UItoTop();
+      $('.post h2, .post h3, .post h4, .post h5, .post h6').anchorify();
+
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
@@ -42,6 +56,18 @@
           checkbox.checked = false;
         }, false);
       })(document);
+
+      var _paq = _paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//piwik.vanoix.co/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 4]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
     </script>
+    <noscript><p><img src="//piwik.vanoix.co/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
   </body>
 </html>
