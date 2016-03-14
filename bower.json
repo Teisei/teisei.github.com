@@ -1,9 +1,9 @@
 {
-  "name": "willdurand.github.com",
+  "name": "teisei.github.com",
   "version": "1.0.0",
-  "homepage": "https://github.com/willdurand/willdurand.github.com",
+  "homepage": "https://github.com/Teisei/teisei.github.com",
   "authors": [
-    "William Durand <will+git@drnd.me>"
+    "Cheng Ding <teisei.din@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {
