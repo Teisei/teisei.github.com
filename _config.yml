@@ -3,25 +3,26 @@ permalink: pretty
 exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
 
 # Setup
-title: "Cheng Ding"
+title: "Teisei"
 tagline: ""
 description: |
-    Hi! I'm <a href="http://www.twitter.com/couac">Will</a>.
+    Hi! I'm <a href="http://www.twitter.com/couac">Teisei</a>.
     <br>
     <br>
-    27 years old. Lifelong learner. Open Source evangelist. Traveler. Triathlete.
+    Postgraduate student.
+    loving sports, photography, geek stuff, also cooking.
     <br>
     <br>
     <small>
-    <a href="mailto:will@drnd.me">will@drnd.me</a> | <a href="http://pgp.mit.edu/pks/lookup?op=get&search=0xa509bcf1c1274f3b">0xa509bcf1c1274f3b</a>
+    <a href="mailto:teisei.din@gmail.com">teisei.din@gmail.com</a> | <a href="http://pgp.mit.edu/pks/lookup?op=get&search=0xa509bcf1c1274f3b">0xa509bcf1c1274f3b</a>
     </small>
 
 # Used in Atom feeds
-url: "http://williamdurand.fr"
+url: "http://teisei.github.io"
 
 # About/contact
 author:
-  name: Cheng Ding
+  name: Teisei
   email: teisei.din@gmail.com
 
 
