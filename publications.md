@@ -4,7 +4,7 @@ title: Publications
 tagline: "Papers I've written."
 ---
 
-Since January 2013, I am a PhD student at Michelin. I am conducting my research
+Since January 2013, I am a Master student at ECNU. I am conducting my research
 work in the software testing field, and I focus on Model-based Testing but also
 on formal model inference. You can find my publications below, and you may also
 have a look at my [DBLP

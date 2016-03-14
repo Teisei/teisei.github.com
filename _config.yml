@@ -3,7 +3,7 @@ permalink: pretty
 exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
 
 # Setup
-title: "William Durand"
+title: "Cheng Ding"
 tagline: ""
 description: |
     Hi! I'm <a href="http://www.twitter.com/couac">Will</a>.
@@ -21,10 +21,10 @@ url: "http://williamdurand.fr"
 
 # About/contact
 author:
-  name: William Durand
-  email: will@drnd.me
+  name: Cheng Ding
+  email: teisei.din@gmail.com
 
 
-my_linkedin: http://linkedin.com/in/williamdurand
-my_github:   http://www.github.com/willdurand
-my_twitter:  http://www.twitter.com/couac
+my_linkedin: http://www.linkedin.com/in/cheng-ding-1b38356b
+my_github:   http://www.github.com/Teisei
+my_twitter:  http://www.twitter.com/teiseiBusy
