@@ -35,8 +35,9 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 
 
-![ruby-v]({{ "/css/pics/ruby-v.png"}})  
+![ruby-v]({{ "/images/gifts.jpg"}})  
 ![ruby-gems]({{ "/css/pics/ruby-gems.png"}})  
+![Alt text](/images/gifts.jpg)
 
 
 ## 可能出现的问题
