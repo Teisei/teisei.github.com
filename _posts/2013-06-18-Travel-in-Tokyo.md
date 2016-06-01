@@ -3,6 +3,7 @@ layout: post
 title: "Travel-in-Tokyo"
 date: 2013-06-18 18:43:00
 categories: Interview Japan
+title: Travel in Tokyo
 ---
 
 This summer, I got a chance to have on-site interview in Tokyo, Japan. It was a wonderful travel experience even though I didn't get the offer from Dorecom.
