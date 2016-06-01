@@ -1,9 +1,9 @@
 ---
 layout: post
 date:   2015-07-05 15:14:54
-categories: travel internship life
 tldr: true
 audio: true
+categories: travel internship life
 title: Intership in Bangalore
 ---
 
