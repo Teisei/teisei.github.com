@@ -39,6 +39,8 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 ![ruby-gems]({{ "/css/pics/ruby-gems.png"}})  
 ![Alt text](/images/gifts.jpg)
 
+<img src="http://i1226.photobucket.com/albums/ee403/teiseidin/Facebook/Cover%20Photos/10253780_621924094561198_2796835470303661060_n_zpszwvpkvjk.jpg" alt="Alt text">
+
 ![Alt text][id]
 [id]: http://b166.photo.store.qq.com/psb?/V117mrBc1kK848/YiApeL0YhbmKDBoFF.OECudOhfyFMvJSYFVYQXlYsE8!/b/dBvd.mIOCQAA&bo=IAMTAgAAAAABBxI!&rf=viewer_4  "Optional title attribute"
 
