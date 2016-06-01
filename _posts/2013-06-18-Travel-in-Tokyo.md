@@ -15,7 +15,7 @@ Below is one of my faverite photos in Tokyo. This is a very Japanese style cross
 [id]: http://b166.photo.store.qq.com/psb?/V117mrBc1kK848/YiApeL0YhbmKDBoFF.OECudOhfyFMvJSYFVYQXlYsE8!/b/dBvd.mIOCQAA&bo=IAMTAgAAAAABBxI!&rf=viewer_4  "Optional title attribute"
 
 
-<img src="http://b166.photo.store.qq.com/psb?/V117mrBc1kK848/YiApeL0YhbmKDBoFF.OECudOhfyFMvJSYFVYQXlYsE8!/b/dBvd.mIOCQAA&bo=IAMTAgAAAAABBxI!&rf=viewer_4" alt="Alt text"> == $0
+<img src="http://ww2.sinaimg.cn/mw1024/92fcae85jw1emmimn6p28j20p80e80uy.jpg" alt="Alt text"> == $0
 
 
 
