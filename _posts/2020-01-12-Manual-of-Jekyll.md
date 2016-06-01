@@ -38,6 +38,8 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 ![ruby-v]({{ "/images/gifts.jpg"}})  
 ![ruby-gems]({{ "/css/pics/ruby-gems.png"}})  
 ![Alt text](/images/gifts.jpg)
+[id]: http://b166.photo.store.qq.com/psb?/V117mrBc1kK848/YiApeL0YhbmKDBoFF.OECudOhfyFMvJSYFVYQXlYsE8!/b/dBvd.mIOCQAA&bo=IAMTAgAAAAABBxI!&rf=viewer_4  "Optional title attribute"
+
 
 
 ## 可能出现的问题
