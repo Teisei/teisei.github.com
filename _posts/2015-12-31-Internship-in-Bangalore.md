@@ -11,6 +11,7 @@ October in 2015, I got the chance to have a three-month internship in HQ of Info
 
 
 
+
 {% highlight java %}
 public class Teisei {
     public static void main(String args[]){
