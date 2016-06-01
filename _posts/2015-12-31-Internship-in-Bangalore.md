@@ -82,6 +82,9 @@ say goodbye to friends
 
 <img src="http://i1226.photobucket.com/albums/ee403/teiseidin/Internship%20In%20Bangalore/img_1311_zpsvfcrfhet.jpg" alt="Alt text">
 
+{% highlight html %}
+<audio src="/mp3/my-blog-title.mp3" controls preload></audio>
+{% endhighlight %}
 
 {% highlight java %}
 public class Teisei {
