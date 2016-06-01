@@ -1,8 +1,7 @@
----
-layout: post
-title:  "Runnable or Thread"
 date:   2015-07-05 15:14:54
 categories: travel internship life
+tldr: true
+audio: true
 title: Intership in Bangalore
 ---
 
