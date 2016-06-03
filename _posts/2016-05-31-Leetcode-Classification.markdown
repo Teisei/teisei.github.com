@@ -5,17 +5,22 @@ tldr: false
 audio: false
 categories: algorithm leetcode
 ---
-<a url="http://teisei.github.io/algorithm/2015/02/10/Dynamic-Programming/">
 
-### Dynamic Programming
+### [Dynamic Programming][dp]
 
-</a>
+[dp]:	http://teisei.github.io/algorithm/2015/02/10/Dynamic-Programming/
 
 	- 32. Longest Valid Parentheses
 	- 53. Maximum Subarray
 	- 62. Unique Paths
 	- 63. Unique Paths II
 	- 64. Minimum Path Sum
+
+
+### [Divide and Conquer][dc]
+
+[dc]:	http://teisei.github.io/algorithm/2015/02/10/Dynamic-Programming/
+
 
 
 ## References
