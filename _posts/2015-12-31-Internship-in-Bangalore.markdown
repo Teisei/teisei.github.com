@@ -1,6 +1,8 @@
 ---
 layout: post
-date:   2015-07-05 15:14:54
+date:   2015-12-31 15:14:54
+tldr: false
+audio: false
 categories: travel internship life
 title: Intership in Bangalore
 ---
