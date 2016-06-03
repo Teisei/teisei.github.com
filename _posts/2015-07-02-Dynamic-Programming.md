@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Dynamic Programming"
-tldr: false
-audio: false
 date:   2015-02-10 15:14:54
 categories: algorithm
 ---
