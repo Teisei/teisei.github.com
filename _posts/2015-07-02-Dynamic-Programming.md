@@ -41,10 +41,13 @@ Given a string containing '(' or ')', find the length of longest valid well-form
 
 #### input
 (()
+
 #### output
 2
+
 #### input
 )()())
+
 #### output
 4
 
@@ -80,12 +83,16 @@ to compute the dp array, we can scan through the
 
 #### Problem description
 Find the contiguous subarray within an array(containing at least one number) which has the largest sum.
+
 #### Input
 [-2,1,-3,4,-1,2,1,-5,4]
+
 #### Output
 6
+
 #### hint
 the subarray with the largest sum is [4,-1,2,1]
+
 #### Solution: 
 
 
