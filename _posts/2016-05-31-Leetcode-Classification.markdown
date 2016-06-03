@@ -8,7 +8,7 @@ categories: algorithm leetcode
 
 ### [Sort][sort]
 
-[sort]:	http://teisei.github.io/
+[sort]:	http://teisei.github.io/algorithm/sort/2014/06/01/Sort/
 
 	- 56.  Merge Intervals
 	- 148. Sort List
