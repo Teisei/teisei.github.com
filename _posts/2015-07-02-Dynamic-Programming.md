@@ -5,53 +5,52 @@ date:   2015-02-10 15:14:54
 categories: algorithm
 ---
     
-# Dynamic Programming: A good algorithm design paradigm 
+## Dynamic Programming: A good algorithm design paradigm 
  
 + correctness: get all the answer of the whole problem;  
 + efficiency: avoid re-computation.  
 
 
-# Key ingredients of Dynamic Programming:   
+## Key ingredients of Dynamic Programming:   
 
 1. identify a small number of sub-problems;   
 2. can quickly and correctly solve "larger problems" given the solutions of "smaller subproblems";   
 3. After solving all subproblems, can quickly compute the final solution.   
 
-# What is the difference between Dynamic Programming and Divide and Conquer?   
+## What is the difference between Dynamic Programming and Divide and Conquer?   
 
 1. dynamic programming solve small sub-problems, which may lead to re-compute the same sub-problem if we do not cache the answers;   
 2. divide and conquer just solve unique sub-problems and combine the answers.   
 
 ---
 
-# Example1: Longest Commen Sequence
-
-
+## Example1: Longest Commen Sequence
 
 ---
-## leetcode 32 Longest Valid Parentheses
 
-### Problem description: 
+### leetcode 32 Longest Valid Parentheses
+
+#### Problem description: 
 
 Given a string containing '(' or ')', find the length of longest valid well-formed parentheses substring.
 
-### input
+#### input
 
 (()
 
-### output
+#### output
 
 2
 
-### input
+#### input
 
 )()())
 
-### output
+#### output
 
 4
 
-### Solution: O(N)
+#### Solution: O(N)
 
 For each of the characters in the string, c[i], we use dp[i] to represent length the longest well-formed parentheses ended by c[i]. Properties:
 
@@ -79,21 +78,21 @@ to compute the dp array, we can scan through the
 
 ---
 
-##leetcode 53 Maximum Subarray
+### leetcode 53 Maximum Subarray
 
-###Problem description
+#### Problem description
 Find the contiguous subarray within an array(containing at least one number) which has the largest sum.
-###Input
+#### Input
 [-2,1,-3,4,-1,2,1,-5,4]
-###Output
+#### Output
 6
-###hint
+#### hint
 the subarray with the largest sum is [4,-1,2,1]
-###Solution: 
+#### Solution: 
 
 
 
-##leetcode 62 Unique Paths
+### leetcode 62 Unique Paths
 
 
 
