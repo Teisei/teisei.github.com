@@ -1,5 +1,6 @@
 ---
 layout: post
+audio:false
 title:  "Dynamic Programming"
 date:   2015-02-10 15:14:54
 categories: algorithm
@@ -91,25 +92,42 @@ Pseudo code for the whole problem
 
 ---
 
-### leetcode 53 Maximum Subarray
+### Leetcode 53 Maximum Subarray
 
 #### Problem description
 Find the contiguous subarray within an array(containing at least one number) which has the largest sum.
 
-#### Input
-[-2,1,-3,4,-1,2,1,-5,4]
+Input	|Output
+------ |  -------
+[-2,1,-3,4,-1,2,1,-5,4]|6
 
-#### Output
-6
-
-#### hint
-the subarray with the largest sum is [4,-1,2,1]
+Hint: the subarray with the largest sum is [4,-1,2,1]
 
 #### Solution: 
 
+> Using array `sum` where `sum[i]` represents sum through `0`th to `i`th
+
+{% highlight java %}
+public class Solution {
+    public int maxSubArray(int[] nums) {
+        int N = nums.length;
+        if(N==0) return 0;
+        
+        int sum[] = new int[N];
+        sum[0] = nums[0];
+        int max = sum[0];
+        for(int i=1;i<N;i++){
+            sum[i]= sum[i-1]>0?(sum[i-1]+nums[i]):nums[i];
+            max = Math.max(max, sum[i]);
+        }
+        return max;
+    }
+}
+{% endhighlight %}
 
 
-### leetcode 62 Unique Paths
+
+### Leetcode 62 Unique Paths
 
 
 
