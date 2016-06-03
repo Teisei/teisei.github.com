@@ -219,7 +219,13 @@ An obstacle and empty space is marked as `1` and `0` respectively in the grid.
 
 ##### Solution
 
-> Add condition check: If `(i, j)` is an obstacle, set `dp[i][j]` to `0` directly.
+> Add condition check: If one point is an obstacle, it is unreachable and cannot help other point to make more paths.
+
+Properties:
+
+* `dp[i][j] = 0`, if `g[i][j] = 1`;
+* `dp[i][j] = dp[i-1][j] + dp[i][j-1]`, if `g[i][j] = 0`;
+* should consider edge case.
 
 ##### Code
 
@@ -251,6 +257,58 @@ public class Solution {
 
 * Time: O(m * n)
 * Space: O(n)
+
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+### Leetcode 64 Minimum Path Sum
+
+##### Problem Description
+
+Given a `m * n` grid with non-negative numbers, find a path from top-left to bottom-right which minimizes the sum of all number along its path.
+<br>
+Note: You can move either down or right at any point in time.
+
+##### Solution
+
+> We can always find the best solution by watch left and top, then choose the better one.
+
+Properties:
+
+* `dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + grid[i][j]`;
+* `dp[m-1][n-1]` is the final solution;
+* should consider edge case.
+
+
+##### Code
+
+{% highlight java %}
+public class Solution {
+    public int minPathSum(int[][] grid) {
+        int M = grid.length, N = grid[0].length;
+        int[] dp = new int[N];
+        for(int i=0;i<M;i++){
+            for(int j=0;j<N;j++){
+                if(i==0 && j==0) dp[j] = grid[i][j];
+                else if(i==0) dp[j]=grid[i][j]+dp[j-1];
+                else if(j==0) dp[j]=grid[i][j]+dp[j];
+                else dp[j]=Math.min(dp[j-1]+grid[i][j], dp[j]+grid[i][j]);
+            }
+        }
+        return dp[N-1];
+    }
+}
+{% endhighlight %}
+
+* Time: O(m * n)
+* Space: O(n)
+
+
 
 
 <br>
