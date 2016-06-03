@@ -25,19 +25,19 @@ categories: algorithm
 
 
 ---
-##leetcode 32 Longest Valid Parentheses
+## leetcode 32 Longest Valid Parentheses
 
-###Problem description: 
+### Problem description: 
 Given a string containing '(' or ')', find the length of longest valid well-formed parentheses substring.
-###input
+### input
 (()
-###output
+### output
 2
-###input
+### input
 )()())
-###output
+### output
 4
-###Solution: O(N)
+### Solution: O(N)
 For each of the characters in the string, c[i], we use dp[i] to represent length the longest well-formed parentheses ended by c[i]. Properties:
 
 * '(' cannot be end of a valid parentheses;
@@ -55,6 +55,8 @@ Suppose we know answers for dp[0-i-1], we want to compute the answer for c[i]:
 			dp[i] = 0
 		else
 			dp[i] = (i-p+1) + dp[p-1];
+
+
 To answer is the largest number in dp.
 
 to compute the dp array, we can scan through the 
