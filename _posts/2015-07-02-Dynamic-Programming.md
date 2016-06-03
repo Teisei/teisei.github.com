@@ -88,7 +88,6 @@ Pseudo code for the whole problem
 			res =  max(res, len)
 		return res
 
-##### Analysis
 
 * Time: O(N)
 * Space: O(N)
@@ -143,8 +142,6 @@ public class Solution {
 }
 {% endhighlight %}
 
-##### Analysis
-
 * Time: O(N)
 * Space: O(N)
 
@@ -159,20 +156,107 @@ public class Solution {
 
 ### Leetcode 62 Unique Paths
 
-#### problem description
+##### problem description
 
-#### Solution:
+Given `m * n` grid, find the number of unique paths from top-left to bottom right (can only move either down or right at any point of time)?
 
-#### Code
+Note: `m` and `n` will be at most 100.
 
-#### Analysis
+##### Solution:
 
+> `dp[i][j]` represents the number of unique ways move from top-left to `(i, j)`
+
+Properties:
+
+* `dp[0][0] = 0` because `(0, 0)` is the starting point; 
+* `dp[i][j] = dp[i-1][j] + dp[i][j-1]` is not out of boundary;
+* `dp[m-1][n-1]` is the result.
+
+Key considerations:
+
+* time complexity: O(m * n)
+* space complexity: O(m * n) or O(n)
+
+##### Code
+
+{% highlight java %}
+public class Solution {
+    public int uniquePaths(int m, int n) {
+        if(m==1 && n==1) return 1;
+        int[] dp = new int[n];
+        dp[0] = 1;
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(i==0 && j==0){}
+                else if(i==0) dp[j]=dp[j-1];
+                else if(j==0) dp[j]=dp[j];
+                else dp[j]=dp[j]+dp[j-1];
+            }
+        }
+        return dp[n-1];
+    }
+}
+{% endhighlight %}
+
+* Time: O(m * n)
+* Space: O(n)
 
 <br>
 <br>
 <br>
 <br>
 
+
+---
+
+### Leetcode 63 Unique Paths II
+
+##### Problem Description
+
+Follow up for `Unique Paths`.
+Consider if some obstacles are added to te grids, how many unique paths would there be?<br>
+An obstacle and empty space is marked as `1` and `0` respectively in the grid.
+
+##### Solution
+
+> Add condition check: If `(i, j)` is an obstacle, set `dp[i][j]` to `0` directly.
+
+##### Code
+
+
+{% highlight java %}
+public class Solution {
+    public int uniquePathsWithObstacles(int[][] obstacleGrid) {
+        int m = obstacleGrid.length;
+        int n = obstacleGrid[0].length;
+        if(obstacleGrid[0][0]==1) return 0;
+        int[] dp = new int[n];
+        dp[0] = 1;
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(obstacleGrid[i][j]==1){
+                    dp[j]=0;
+                    continue;
+                }
+                if(i==0 && j==0){}
+                else if(i==0) dp[j]=dp[j-1];
+                else if(j==0) dp[j]=dp[j];
+                else dp[j]=dp[j-1]+dp[j];
+            }
+        }
+        return dp[n-1];
+    }
+}
+{% endhighlight %}
+
+* Time: O(m * n)
+* Space: O(n)
+
+
+<br>
+<br>
+<br>
+<br>
 
 ---
 
