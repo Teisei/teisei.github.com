@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Greedy Algorithm"
 date: 2011-1-02 18:43:00
 categories: algorithm

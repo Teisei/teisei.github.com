@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Balanced Binary Search Tree"
 date: 2011-04-02 18:43:00
 categories: algorithm data-structure

@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Conditional Random Field Tagging"
 date: 2014-01-11 18:43:00
 categories: Model

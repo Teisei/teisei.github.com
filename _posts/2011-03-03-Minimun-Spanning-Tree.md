@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Minimun Spanning Tree"
 date: 2011-03-03 18:43:00
 categories: algorithm

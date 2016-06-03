@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Travel-in-Tokyo"
 date: 2013-06-18 18:43:00
 categories: Interview Japan

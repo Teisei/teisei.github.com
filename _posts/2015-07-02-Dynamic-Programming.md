@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title:  "Dynamic Programming"
 date:   2015-02-10 15:14:54
 categories: algorithm

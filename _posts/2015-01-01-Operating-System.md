@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title:  "Operating System"
 date:   2015-01-01 18:43:00
 categories: Operating-System 

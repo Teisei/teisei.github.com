@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Hidden Markov Model"
 date: 2013-12-11 18:43:00
 categories: Model 

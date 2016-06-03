@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Schedual Application"
 date: 2011-01-01 18:43:00
 categories: algorithm

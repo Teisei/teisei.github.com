@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Analysis of Algorithms"
 date: 2011-1-01 18:43:00
 categories: algorithm

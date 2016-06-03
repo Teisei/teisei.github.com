@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title:  "Runnable or Thread"
 date:   2015-07-05 15:14:54
 categories: java multithreading

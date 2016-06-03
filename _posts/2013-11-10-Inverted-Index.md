@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Inverted Index"
 date: 2013-11-10 18:43:00
 categories: Information-retrieval

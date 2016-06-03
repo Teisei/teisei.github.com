@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: "Inside JVM"
 date: 2011-06-16 18:43:00
 categories: Java

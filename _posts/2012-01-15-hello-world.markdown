@@ -1,5 +1,7 @@
 ---
 layout: post
+tldr: false
+audio: false
 title: Hello, World!
 location: Clermont-Fd Area, France
 ---
