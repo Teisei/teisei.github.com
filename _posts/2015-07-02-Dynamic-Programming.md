@@ -22,20 +22,21 @@ categories: algorithm
 1. dynamic programming solve small sub-problems, which may lead to re-compute the same sub-problem if we do not cache the answers;   
 2. divide and conquer just solve unique sub-problems and combine the answers.   
 
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 
 ---
 
 ## Examples
 
+<br><br>
 
 
-### leetcode 32 Longest Valid Parentheses
+### Leetcode 32 Longest Valid Parentheses
 
-#### Problem description: 
+##### Problem description: 
 
 Given a string `s`, containing '(' or ')', find the length of longest valid well-formed parentheses substring.
 
@@ -44,7 +45,7 @@ Input	|Output
 (()	| 2
 )()())	| 4
 
-#### Solution: O(N)
+##### Solution: O(N)
 
 > Check if the `i`th element is `end` of a valid substring, if yes find the length. 
 
@@ -56,6 +57,8 @@ Properties for an `end` elemenet `cj`:
 * substring between `ci` and `cj` is valid
 	
 If `cj` satisfies all the privous properties, `s[i~j]` is at least a valid substring. And also, if there is a valid substring `s[x~i-1]` left to `s[i~j]`, so that `s[x~j]` is the longest substring ended by `cj`.
+
+##### Code
 
 Below is the Pseudo code for check and compute for `cj`: 
 	
@@ -85,15 +88,23 @@ Pseudo code for the whole problem
 			res =  max(res, len)
 		return res
 
+##### Analysis
+
+* Time: O(N)
+* Space: O(N)
 
 
+<br>
+<br>
+<br>
+<br>
 
 
 ---
 
 ### Leetcode 53 Maximum Subarray
 
-#### Problem description
+##### Problem description
 Find the contiguous subarray within an array(containing at least one number) which has the largest sum.
 
 Input	|Output
@@ -102,7 +113,7 @@ Input	|Output
 
 Hint: the subarray with the largest sum is [4,-1,2,1]
 
-#### Solution: 
+##### Solution: 
 
 > Using array `sum` where `sum[i]` represents the maximum sum through `nums[x]` to `nums[i]`;
 
@@ -110,6 +121,8 @@ two types of `sum[i]`:
 
 * `nums[i]`, when `i` is the head of the array, or `sum[i-1]`is negative and cannot help;
 * `sum[i-1] + nums[i]`, when `sum[i-1]` is positive.
+
+##### Code
 
 Below is the Java implementation:
 {% highlight java %}
@@ -130,12 +143,38 @@ public class Solution {
 }
 {% endhighlight %}
 
+##### Analysis
 
+* Time: O(N)
+* Space: O(N)
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+---
 
 ### Leetcode 62 Unique Paths
 
+#### problem description
+
+#### Solution:
+
+#### Code
+
+#### Analysis
 
 
+<br>
+<br>
+<br>
+<br>
+
+
+---
 
 {% highlight java %}
 public class Teisei {
