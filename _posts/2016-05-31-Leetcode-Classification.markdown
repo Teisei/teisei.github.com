@@ -10,6 +10,7 @@ categories: algorithm leetcode
 
 [sort]:	http://teisei.github.io/
 
+	- 56.  Merge Intervals
 	- 148. Sort List
 	- 242. Valid Anagram
 	- 324. Wiggle Sort II
@@ -21,14 +22,14 @@ categories: algorithm leetcode
 
 [dp]:	http://teisei.github.io/algorithm/2015/02/10/Dynamic-Programming/
 
-	- 32. Longest Valid Parentheses
-	- 53. Maximum Subarray
-	- 62. Unique Paths
-	- 63. Unique Paths II
-	- 64. Minimum Path Sum
+	- 32.  Longest Valid Parentheses
+	- 53.  Maximum Subarray
+	- 62.  Unique Paths
+	- 63.  Unique Paths II
+	- 64.  Minimum Path Sum
 	- ***
-	- 70. Climbing Stairs
-	- 91. Decode Ways
+	- 70.  Climbing Stairs
+	- 91.  Decode Ways
 	- 121. Best Time to Buy and Sell Stock
 	- 152. Maximum Product Subarray
 	- 198. House Robber
