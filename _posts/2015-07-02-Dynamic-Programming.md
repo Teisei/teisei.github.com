@@ -37,44 +37,56 @@ categories: algorithm
 
 #### Problem description: 
 
-Given a string containing '(' or ')', find the length of longest valid well-formed parentheses substring.
+Given a string `s`, containing '(' or ')', find the length of longest valid well-formed parentheses substring.
 
-#### input
-(()
-
-#### output
-2
-
-#### input
-)()())
-
-#### output
-4
+Input	|Output
+------- |  ---------
+(()	| 2
+)()())	| 4
 
 #### Solution: O(N)
 
-For each of the characters in the string, c[i], we use dp[i] to represent length the longest well-formed parentheses ended by c[i]. Properties:
+> Check if the `i`th element is `end` of a valid substring, if yes find the length. 
 
-* '(' cannot be end of a valid parentheses;
-* dp[i] should be a even number;
-* If dp[i] equals 0, there is no valid substring ended by c[i].
+Properties for an `end` elemenet `cj`:
 
-
-Suppose we know answers for dp[0-i-1], we want to compute the answer for c[i]:
+* not the first element
+* equals to `)`
+* can find privous `ci` equals `(` to match
+* substring between `ci` and `cj` is valid
 	
-	if c[i] == '('
-		dp[i] = 0
-	else
-		int p = i - dp[i-1] - 1;
-		if p < 0 or c[p]==')'
-			dp[i] = 0
+If `cj` satisfies all the privous properties, `s[i~j]` is at least a valid substring. And also, if there is a valid substring `s[x~i-1]` left to `s[i~j]`, so that `s[x~j]` is the longest substring ended by `cj`.
+
+Below is the Pseudo code for check and compute for `cj`: 
+	
+	check_if_end(j):
+		if c[j] == '('
+			dp[j] = 0
 		else
-			dp[i] = (i-p+1) + dp[p-1];
+			int i = j - dp[j-1] - 1;
+			if i < 0 or c[i]==')'
+				dp[j] = 0
+			else
+				dp[j] = (j-i+1) + dp[i-1];
+				
+	//edge case: i or i-1 is left out of boundary
 
 
-To answer is the largest number in dp.
+Edge case:
 
-to compute the dp array, we can scan through the 
+* the '(' index i will match, p, is left out of boundary
+
+Pseudo code for the whole problem
+
+	solution():
+		res = 0
+		for each j in s.length
+			len = check_if_end(j)
+			res =  max(res, len)
+		return res
+
+
+
 
 
 ---
