@@ -86,10 +86,7 @@ categories: algorithm leetcode
 
 <br><br><br><br>
 
-## References
-https://docs.google.com/spreadsheet/pub?key=0Aqt--%20wSNYfuxdGxQWVFsOGdVVWxQRlNUVXZTdEpOeEE&output=html
-
-
+---
 
 {% highlight java %}
 public class Teisei {
