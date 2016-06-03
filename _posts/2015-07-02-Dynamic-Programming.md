@@ -104,8 +104,14 @@ Hint: the subarray with the largest sum is [4,-1,2,1]
 
 #### Solution: 
 
-> Using array `sum` where `sum[i]` represents sum through `0`th to `i`th
+> Using array `sum` where `sum[i]` represents the maximum sum through `nums[x]` to `nums[i]`;
 
+two types of `sum[i]`:
+
+* `nums[i]`, when `i` is the head of the array, or `sum[i-1]`is negative and cannot help;
+* `sum[i-1] + nums[i]`, when `sum[i-1]` is positive.
+
+Below is the Java implementation:
 {% highlight java %}
 public class Solution {
     public int maxSubArray(int[] nums) {
