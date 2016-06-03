@@ -5,7 +5,7 @@ date:   2015-02-10 15:14:54
 categories: algorithm
 ---
     
-#Dynamic Programming: A good algorithm design paradigm  
+# Dynamic Programming: A good algorithm design paradigm  
 + correctness: get all the answer of the whole problem;  
 + efficiency: avoid re-computation.  
 
