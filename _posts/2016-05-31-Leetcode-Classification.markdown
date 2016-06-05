@@ -11,8 +11,11 @@ categories: algorithm leetcode
 [sort]:	http://teisei.github.io/algorithm/sort/2014/06/01/Sort/
 
 	- 56.  Merge Intervals
+	- 75.  Sort Colors
+	- 147. Insertion Sort List
 	- 148. Sort List
 	- 242. Valid Anagram
+	- 274. H-Index
 	- 324. Wiggle Sort II
 	- 349. Intersection of Two Arrays
 	- 350. Intersection of Two Arrays II
@@ -63,6 +66,8 @@ categories: algorithm leetcode
 
 
 ### [Hash][hash]
+
+	- 274. H-Index
 
 [hash]:	http://teisei.github.io/
 

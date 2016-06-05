@@ -192,6 +192,39 @@ Given a sorted list of words, find the longest compound word in the list that is
 
 ---
 
+##### 29. Contains Duplicate
+
+Given an array of integers, find if the array contains any duplicates.
+
+1. Follow up: Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the difference between i and j is at most k.
+2. Follow up: Given an array of integers, find out whether there are two distinct indices i and j in the array such that the difference between nums[i] and nums[j] is at most t and the difference between i and j is at most k.
+
+---
+
+##### 30. Sort Colors
+
+Given an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue. (Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.)
+
+1. Follow up: Can you give a one pass solution?
+2. Follow up: What if there are N colors? You can use extra memory.
+
+---
+
+##### 31. H-Index
+
+Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index.
+
+According to the definition of h-index on Wikipedia: "A scientist has index h if h of his/her N papers have at least h citations each, and the other N − h papers have no more than h citations each."
+
+For example, given citations = [3, 0, 6, 1, 5], which means the researcher has 5 papers in total and each of them had received 3, 0, 6, 1, 5 citations respectively. Since the researcher has 3 papers with at least 3 citations each and the remaining two with no more than 3 citations each, his h-index is 3.
+
+Note: If there are several possible values for h, the maximum one is taken as the h-index.
+
+1. Follow up: for H-Index: What if the citations array is sorted in ascending order? Could you optimize your algorithm?
+
+
+
+
 <br>
 <br>
 <br>
