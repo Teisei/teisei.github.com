@@ -11,7 +11,11 @@ categories: algorithm interview
 
 
 [Jianchao's Blog][ln1]
+
+[Doufu][ln2]
+
 [ln1]:	http://www.cnblogs.com/jcliBlogger/category/697022.html
+[ln2]:	http://blog.csdn.net/xudli/article/category/1357585
 
 <br><br>
 
