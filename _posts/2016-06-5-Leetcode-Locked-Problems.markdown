@@ -7,24 +7,21 @@ title: Leetcode Locked Problems
 categories: algorithm interview
 ---
 
-### Reference
+### References
 
-[programming-interview-questions][ln1]
-	
-[ln1]:http://www.ardendertat.com/2012/01/09/programming-interview-questions/
 
-<br>
-<br>
-<br>
+[Jianchao's Blog][ln1]
+[ln1]:	http://www.cnblogs.com/jcliBlogger/category/697022.html
+
+<br><br>
+
+---
 
 
 ### Problems
 
----
 
-<br>
-
-##### 156  Binary Tree Upside Down
+##### [1] 156	Binary Tree Upside Down
 
 * 	38.7%		Medium
 
@@ -49,223 +46,349 @@ turned into left leaf nodes. Return the new root.
 	 / \
 	3   1
 
+<br>
 
 ---
 
-##### 157	Read N Characters Given Read4
+##### [2]	157	Read N Characters Given Read4
+
+* 29.4%		Easy
+
+The API: int read4(char *buf) reads 4 characters at a time from a file.
+
+The return value is the actual number of characters read. For example, it returns 3 if there is only 3 characters left in the file.
+
+By using the read4 API, implement the function int read(char *buf, int n) that reads n characters from the file.
+
+Note: The read function will only be called once for each test case.
+
+<br>
 
 ---
 
-##### 158	Read N Characters Given Read4 II - Call multiple times 
+##### [3]	158	Read N Characters Given Read4 II - Call multiple times 
 
 ---
 
-##### 159	Longest Substring with At Most Two Distinct Characters 
+##### [4]	159	Longest Substring with At Most Two Distinct Characters 
 
 ---
 
-##### 161	One Edit Distance 
+##### [5]	161	One Edit Distance 
 
 ---
 
-##### 163	Missing Ranges 
+##### [6]	163	Missing Ranges 
 
 ---
 
-##### 167	Two Sum II - Input array is sorted 
+##### [7] 167	Two Sum II - Input array is sorted 
+
+Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
+You may assume that each input would have exactly one solution.
+
+	Input: numbers={2, 7, 11, 15}, target=9
+	Output: index1=1, index2=2
+
+<br>
 
 ---
 
-##### 170	Two Sum III - Data structure design 
+##### [8] 170	Two Sum III - Data structure design 
+
+Design and implement a TwoSum class. It should support the following operations:add and find.
+add - Add the number to an internal data structure.
+find - Find if there exists any pair of numbers which sum is equal to the value.
+
+	For example,
+	add(1); add(3); add(5);
+	find(4) -> true
+	find(7) -> false
+
+<br>
 
 ---
 
-##### 186	Reverse Words in a String II 
+##### [9] 186	Reverse Words in a String II 
 
 ---
 
-##### 243	Shortest Word Distance 	47.0%		Easy
+##### [10]	243	Shortest Word Distance 	
+
+* 47.0%		Easy
+
+Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
+
+	For example,
+	Assume that words = ["practice", "makes", "perfect", "coding", "makes"].
+
+	Given word1 = "coding", word2 = "practice", return 3.
+	Given word1 = "makes", word2 = "coding", return 1.
+
+Note:
+You may assume that word1 does not equal to word2, and word1 and word2 are both in the list.
+
+<br>
 
 ---
 
-##### 244	Shortest Word Distance II 	35.4%		Medium
+##### [11] 244	Shortest Word Distance II 	
+
+* 35.4%		Medium
+
+This is a follow up of Shortest Word Distance. The only difference is now you are given the list of words and your method will be called repeatedly many times with different parameters. How would you optimize it?
+
+Design a class which receives a list of words in the constructor, and implements a method that takes two words word1 and word2 and return the shortest distance between these two words in the list.
+
+	For example,
+	Assume that words = ["practice", "makes", "perfect", "coding", "makes"].
+
+	Given word1 = "coding”, word2 = "practice”, return 3.
+	Given word1 = "makes", word2 = "coding", return 1.
+
+Note:
+You may assume that word1 does not equal to word2, and word1 and word2 are both in the list.
+
+<br>
 
 ---
 
-##### 245	Shortest Word Distance III 	46.4%		Medium
+##### [12] 245	Shortest Word Distance III 	
+
+* 46.4%		Medium
+
+This is a follow up of Shortest Word Distance. The only difference is now word1 could be the same as word2.
+
+Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
+
+word1 and word2 may be the same and they represent two individual words in the list.
+
+	For example,
+	Assume that words = ["practice", "makes", "perfect", "coding", "makes"].
+
+	Given word1 = “makes”, word2 = “coding”, return 1.
+	Given word1 = "makes", word2 = "makes", return 3.
+
+Note:
+You may assume word1 and word2 are both in the list.
+
+<br>
 
 ---
 
-##### 246	Strobogrammatic Number 	36.8%		Easy
+##### [13] 246	Strobogrammatic Number 	
 
----
+* 36.8%		Easy
 
-##### 247	Strobogrammatic Number II 	34.7%		Medium
+A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
 
----
+Write a function to determine if a number is strobogrammatic. The number is represented as a string.
 
-##### 248	Strobogrammatic Number III 	27.4%		Hard
-
----
-
-##### 249	Group Shifted Strings 	31.9%		Easy
-
----
-
-##### 250	Count Univalue Subtrees 	36.9%		Medium
-
----
-
-##### 251	Flatten 2D Vector 	34.6%		Medium
-
----
-
-##### 252	Meeting Rooms 	42.1%		Easy
-
----
-
-##### 253	Meeting Rooms II 	35.0%		Medium
-
----
-
-##### 254	Factor Combinations 	35.3%		Medium
-
----
-
-##### 255	Verify Preorder Sequence in Binary Search Tree 	37.4%		Medium
-
----
-
-##### 256	Paint House 
-
----
-
-##### 259	3Sum Smaller 
-
----
-
-##### 261	Graph Valid Tree 
-
----
-
-##### 265	Paint House II 
-
----
-
-##### 266	Palindrome Permutation 
-
----
-
-##### 267	Palindrome Permutation II 
-
----
-
-##### 269	Alien Dictionary 	23.4%		Hard
-
----
-
-##### 270	Closest Binary Search Tree Value 	34.8%		Easy
-
----
-
-##### 271	Encode and Decode Strings 	27.2%		Medium
-
----
-
-##### 272	Closest Binary Search Tree Value II 
-
----
-
-##### 276	Paint Fence 	31.2%		Easy
-
----
-
-##### 277	Find the Celebrity 
+	For example, the numbers "69", "88", and "818" are all strobogrammatic.
 
 
 ---
 
-##### 280	Wiggle Sort 	49.9%		Medium
+##### [14] 247	Strobogrammatic Number II 	 	
+* 34.7%		Medium
+
+This problem can be solved easily once you find the regularities :-) This link has done it for you. You may refer to its Python version.
+
 
 ---
 
-##### 281	Zigzag Iterator 
+##### [15] 248	Strobogrammatic Number III 	 	
+
+* 27.4%		Hard
 
 ---
 
-##### 285	Inorder Successor in BST 	35.8%		Medium
+##### [16] 249	Group Shifted Strings 	 	
+
+* 31.9%		Easy
 
 ---
 
-##### 286	Walls and Gates 
+##### [17] 250	Count Univalue Subtrees 	 	
+
+* 36.9%		Medium
 
 ---
 
-##### 288	Unique Word Abbreviation 
+##### [18] 251	Flatten 2D Vector 	 	
+
+* 34.6%		Medium
 
 ---
 
-##### 291	Word Pattern II 
+##### [19] 252	Meeting Rooms 	 	
+
+* 42.1%		Easy
 
 ---
 
-##### 293	Flip Game 	50.3%		Easy
+##### [20] 253	Meeting Rooms II 	 	
+
+* 35.0%		Medium
 
 ---
 
-##### 294	Flip Game II 
+##### [21] 254	Factor Combinations 	 	
+
+* 35.3%		Medium
 
 ---
 
-##### 296	Best Meeting Point 
+##### [22] 255	Verify Preorder Sequence in Binary Search Tree 	 	
+* 37.4%		Medium
 
 ---
 
-##### 298	Binary Tree Longest Consecutive Sequence
+##### [23] 256	Paint House 
 
 ---
 
-##### 302	Smallest Rectangle Enclosing Black Pixels 
+##### [24] 259	3Sum Smaller 
 
 ---
 
-##### 305	Number of Islands II 
+##### [25] 261	Graph Valid Tree 
 
 ---
 
-##### 308	Range Sum Query 2D - Mutable
+##### [26] 265	Paint House II 
 
 ---
 
-##### 311	Sparse Matrix Multiplication
+##### [27] 266	Palindrome Permutation 
 
 ---
 
-##### 314	Binary Tree Vertical Order Traversal 
+##### [28] 267	Palindrome Permutation II 
 
 ---
 
-##### 317	Shortest Distance from All Buildings 
+##### [29] 269	Alien Dictionary 	 	
+
+* 23.4%		Hard
 
 ---
 
-##### 320	Generalized Abbreviation 
+##### [30] 270	Closest Binary Search Tree Value	 	
+
+* 34.8%		Easy
 
 ---
 
-##### 323	Number of Connected Components in an Undirected Graph 
+##### [31] 271	Encode and Decode Strings 	 	
+
+* 27.2%		Medium
 
 ---
 
-##### 325	Maximum Size Subarray Sum Equals k 
+##### [32] 272	Closest Binary Search Tree Value II 
 
 ---
 
-##### 333	Largest BST Subtree 
+##### [33] 276	Paint Fence 	 	
+
+* 31.2%		Easy
 
 ---
 
-##### 339	Nested List Weight Sum	
+##### [34] 277	Find the Celebrity 
+
+
+---
+
+##### [35] 280	Wiggle Sort 	 	
+
+* 49.9%		Medium
+
+---
+
+##### [36] 281	Zigzag Iterator 
+
+---
+
+##### [37] 285	Inorder Successor in BST 	 	
+
+* 35.8%		Medium
+
+---
+
+##### [38] 286	Walls and Gates 
+
+---
+
+##### [39] 288	Unique Word Abbreviation 
+
+---
+
+##### [40] 291	Word Pattern II 
+
+---
+
+##### [41] 293	Flip Game 	 	
+
+* 50.3%		Easy
+
+---
+
+##### [42] 294	Flip Game II 
+
+---
+
+##### [43] 296	Best Meeting Point 
+
+---
+
+##### [44] 298	Binary Tree Longest Consecutive Sequence
+
+---
+
+##### [45] 302	Smallest Rectangle Enclosing Black Pixels 
+
+---
+
+##### [46] 305	Number of Islands II 
+
+---
+
+##### [47] 308	Range Sum Query 2D - Mutable
+
+---
+
+##### [48] 311	Sparse Matrix Multiplication
+
+---
+
+##### [49] 314	Binary Tree Vertical Order Traversal 
+
+---
+
+##### [50] 317	Shortest Distance from All Buildings 
+
+---
+
+##### [51] 320	Generalized Abbreviation 
+
+---
+
+##### [52] 323	Number of Connected Components in an Undirected Graph 
+
+---
+
+##### [53] 325	Maximum Size Subarray Sum Equals k 
+
+---
+
+##### [54] 333	Largest BST Subtree 
+
+---
+
+##### [55] 339	Nested List Weight Sum	
 
 * 55.3%		Easy
 
@@ -281,23 +404,23 @@ Each element is either an integer, or a list -- whose elements may also be integ
 
 ---
 
-##### 340	Longest Substring with At Most K Distinct Characters 
+##### [56] 340	Longest Substring with At Most K Distinct Characters 
 
 ---
 
-##### 346	Moving Average from Data Stream 
+##### [57] 346	Moving Average from Data Stream 
 
 ---
 
-##### 348	Design Tic-Tac-Toe 
+##### [58] 348	Design Tic-Tac-Toe 
 
 ---
 
-##### 351	Android Unlock Patterns 
+##### [59] 351	Android Unlock Patterns 
 
 ---
 
-##### 353	Design Snake Game 
+##### [60] 353	Design Snake Game 
 
 
 <br>
