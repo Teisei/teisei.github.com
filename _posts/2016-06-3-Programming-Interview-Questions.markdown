@@ -254,6 +254,17 @@ Note:
 (3) 0 < k ≤ 100, 0 < n ≤ 106, 0 < primes[i] < 1000.
 
 
+---
+
+##### 33. Permutation
+
+1. leetcode 46  Permutations
+2. leetcode 47  Permutations II
+3. leetcode 266 Palinarome Permutation
+4. leetcode 266 Palinarome Permutation II
+5. leetcode 60  Permutation Sequence
+6. leetcode 31  Next Permutation
+
 
 
 

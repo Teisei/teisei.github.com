@@ -86,6 +86,8 @@ categories: algorithm leetcode
 
 [recursion]:	http://teisei.github.io/
 
+	- 46.  Permutations
+
 
 
 ### [Backtracking][backtracking]
