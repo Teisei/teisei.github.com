@@ -136,7 +136,10 @@ public boolean isCombined2(String s1, String s2, String s3){
 
 	List<MyNode> queue = new ArrayList<MyNode>();
 	/* initial state */
-	MyNode root = new MyNode(-1, -1, -1);
+	int start1 = -1, start2 = -1, start3 = -1;
+	int end1 = len1-1, end2 = len2-1, end3 = len3-1;
+		
+	MyNode root = new MyNode(start1, start2, start3);
 	queue.add(root);
 
 	while(queue.size()>0){
@@ -144,30 +147,33 @@ public boolean isCombined2(String s1, String s2, String s3){
 
 		for(MyNode node: queue){
 
-			int cur_i = node.i, cur_j = node.j, cur_k = node.k;
+			int i = node.i, j = node.j, k = node.k;
 				
 			// if finished
-			if(cur_k == len3 - 1) return true;
+			if(k == end3) return true;
 
-			int i, j, k;
-			/* two possibilities */
-			i = cur_i;
-			k = cur_k;
-			while(i < len1-1){
-				if(s1.charAt(i+1) != s3.charAt(k+1)) break;
-				i++; 
-				k++;
+			//find common with length: len				
+			int len = 0;
+			while(i + len + 1 <= end1 && j + len + 1 <= end2){
+				if(s1.charAt(i + len + 1) != s3.charAt(k + len + 1) 
+					|| s2.charAt(j + len + 1) != s3.charAt(k + len + 1))
+					break;
+				len++;
 			}
-			if(i > cur_i) new_queue.add(new MyNode(i, cur_j, k));
 
-			j = cur_j;
-			k = cur_k;
-			while(j < len2-1){
-				if(s2.charAt(j+1) != s3.charAt(k+1)) break;
-				j++;
-				k++;
+			if(len > 0){
+				// if find the same string, add both of them as possibility
+				new_queue.add(new MyNode(i, j + len, k + len));
+				new_queue.add(new MyNode(i + len, j, k + len));
+			}else{
+				if(i < end1)
+					if(s1.charAt(i+1) == s3.charAt(k+1))
+						new_queue.add(new MyNode(i+1, j, k+1));
+
+				if(j < end2)
+					if(s2.charAt(j+1) == s3.charAt(k+1))
+						new_queue.add(new MyNode(i, j+1, k+1));
 			}
-			if(j > cur_j) new_queue.add(new MyNode(cur_i, j, k));
 
 			queue = new_queue;
 		}
