@@ -130,12 +130,10 @@ class MyNode{
 	}
 }
 public boolean isCombined2(String s1, String s2, String s3){
-	int len1 = s1.length();
-	int len2 = s2.length();
-	int len3 = s3.length();
+	int len1 = s1.length(), len2 = s2.length(), len3 = s3.length();
 	/* special case */
 	if(len1 + len2 != len3) return false;
-	
+
 	List<MyNode> queue = new ArrayList<MyNode>();
 	/* initial state */
 	MyNode root = new MyNode(-1, -1, -1);
@@ -143,20 +141,33 @@ public boolean isCombined2(String s1, String s2, String s3){
 
 	while(queue.size()>0){
 		List<MyNode> new_queue = new ArrayList<MyNode>();
-		
+
 		for(MyNode node: queue){
-			int i = node.i， j = node.j， k = node.k;
+
+			int cur_i = node.i, cur_j = node.j, cur_k = node.k;
 				
 			// if finished
-			if(k == len3 - 1) return true;
+			if(cur_k == len3 - 1) return true;
 
+			int i, j, k;
 			/* two possibilities */
-			if(i < len1-1)
-				if(s1.charAt(i+1) == s3.charAt(k+1))
-					new_queue.add(new MyNode(i+1, j, k+1));
-			if(j < len2-1)
-				if(s2.charAt(j+1) == s3.charAt(k+1))
-					new_queue.add(new MyNode(i, j+1, k+1));
+			i = cur_i;
+			k = cur_k;
+			while(i < len1-1){
+				if(s1.charAt(i+1) != s3.charAt(k+1)) break;
+				i++; 
+				k++;
+			}
+			if(i > cur_i) new_queue.add(new MyNode(i, cur_j, k));
+
+			j = cur_j;
+			k = cur_k;
+			while(j < len2-1){
+				if(s2.charAt(j+1) != s3.charAt(k+1)) break;
+				j++;
+				k++;
+			}
+			if(j > cur_j) new_queue.add(new MyNode(cur_i, j, k));
 
 			queue = new_queue;
 		}
