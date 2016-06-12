@@ -3,7 +3,7 @@ layout: post
 location: Shanghai, China
 tldr: false
 audio: false
-title: Useful links for Interview 
+title: Combine two strings
 categories: interview
 ---
 
@@ -130,7 +130,9 @@ class MyNode{
 	}
 }
 public boolean isCombined2(String s1, String s2, String s3){
-	int len1 = s1.length(), len2 = s2.length(), len3 = s3.length();
+	int len1 = s1.length();
+	int len2 = s2.length();
+	int len3 = s3.length();
 	/* special case */
 	if(len1 + len2 != len3) return false;
 	
@@ -141,9 +143,9 @@ public boolean isCombined2(String s1, String s2, String s3){
 
 	while(queue.size()>0){
 		List<MyNode> new_queue = new ArrayList<MyNode>();
-
+		
 		for(MyNode node: queue){
-			int i = node.i, j = node.j, k = node.k;
+			int i = node.i， j = node.j， k = node.k;
 				
 			// if finished
 			if(k == len3 - 1) return true;
