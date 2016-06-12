@@ -265,7 +265,15 @@ Note:
 5. leetcode 60  Permutation Sequence
 6. leetcode 31  Next Permutation
 
+---
 
+##### 34. Best time to buy and sell Stock
+
+1. leetcode 121 Best Time to Buy and Sell Stock
+2. leetcode 122 Best Time to Buy and Sell Stock II
+3. leetcode 123 Best Time to Buy and Sell Stock III
+4. leetcode 188 Best Time to Buy and Sell Stock IV
+5. leetcode 309 Best Time to Buy and Sell Stock with Cooldown
 
 
 
