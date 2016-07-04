@@ -9,9 +9,9 @@ categories: Java
 
 ### Content
 
-[1. Array and String](#Chapter1)
+[1. Array and String](#chapter1)
 
-[2. Linked Lists](#Chapter2)
+[2. Linked Lists](#chapter2)
 
 [3. Stack and Queues](#Chapter3)
 
