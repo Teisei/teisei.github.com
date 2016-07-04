@@ -7,11 +7,39 @@ title: Solutions for Cracking the Coding Interview
 categories: Java
 ---
 
+
+<a name='#content'></a>
+
 ### Content
 
-[目录](#jump1)
+[1. Array and String](#jump1)
+
+[2. Linked Lists](#jump2)
+
+[3. Stack and Queues](#jump3)
+
+[4. Tree and Graphs](#jump4)
+
+[5. Bit Manipulation](#jump5)
+
+[6. Brain Teasers](#jump6)
+
+[7. Object Oriented Design](#jump7)
+
+[8. Recursion](#jump8)
+
+[9. Sorting and Search](#jump9)
+
+[10. Mathematical](#jump10)
+
+[11. System Design and Memory Limits](#jump11)
+
 
 ---
+
+<a name='#jump1'></a>
+
+[Back to Content](#content)
 
 ### Chapter 1 Arrays and Strings
 
@@ -61,14 +89,30 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 <br>
 
+
+<a name='#jump2'></a>
+
+[Back to Content](#content)
+
 ### Chapter 2 Linked Lists
 
+
+
+<a name='#jump3'></a>
 
 ### Chapter 3 Stack and Queues
 
 
+
+
+<a name='#jump4'></a>
+
 ### Chapter 4 Tree and Graphs
 
+
+
+
+<a name='#jump5'></a>
 
 ### Chapter 5 Bit Manipulation
 
@@ -118,7 +162,6 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 ### Chapter 20 Hard
 
 
-<a name='#jump1'>跳转到这里：</a>
 
 
 <br>
