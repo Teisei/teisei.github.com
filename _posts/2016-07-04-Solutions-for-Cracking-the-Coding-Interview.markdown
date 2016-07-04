@@ -118,8 +118,8 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 ### Chapter 20 Hard
 
 
+<a name='content'>跳转到这里：</a>
 
-<span id = "content">跳转到这里：</span>
 
 <br>
 <br>
