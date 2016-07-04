@@ -13,41 +13,41 @@ categories: Java
 
 [2. Linked Lists](#chapter2)
 
-[3. Stack and Queues](#Chapter3)
+[3. Stack and Queues](#chapter3)
 
-[4. Tree and Graphs](#Chapter4)
+[4. Tree and Graphs](#chapter4)
 
-[5. Bit Manipulation](#Chapter5)
+[5. Bit Manipulation](#chapter5)
 
-[6. Brain Teasers](#Chapter6)
+[6. Brain Teasers](#chapter6)
 
-[7. Object Oriented Design](#Chapter7)
+[7. Object Oriented Design](#chapter7)
 
-[8. Recursion](#Chapter8)
+[8. Recursion](#chapter8)
 
-[9. Sorting and Search](#Chapter9)
+[9. Sorting and Search](#chapter9)
 
-[10. Mathematical](#Chapter10)
+[10. Mathematical](#chapter10)
 
-[11. System Design and Memory Limits](#Chapter11)
+[11. System Design and Memory Limits](#chapter11)
 
-[12. Testing](#Chapter12)
+[12. Testing](#chapter12)
 
-[13. C++](#Chapter13)
+[13. C++](#chapter13)
 
-[14. Java](#Chapter14)
+[14. Java](#chapter14)
 
-[15. Databases](#Chapter15)
+[15. Databases](#chapter15)
 
-[16. Low Level](#Chapter16)
+[16. Low Level](#chapter16)
 
-[17. Networking](#Chapter17)
+[17. Networking](#chapter17)
 
-[18. Threads and Locks](#Chapter18)
+[18. Threads and Locks](#chapter18)
 
-[19. Moderate](#Chapter19)
+[19. Moderate](#chapter19)
 
-[20. Hard](#Chapter20)
+[20. Hard](#chapter20)
 
 <br>
 
@@ -94,6 +94,8 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 #### 1.2 Write code to reverse a C-Style String. (C-Style means that "abcd" is represented as five characters, including the null character.)
 
+
+
 <br>
 
 #### 1.3 
@@ -108,9 +110,12 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
 
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter2
 
@@ -125,9 +130,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter3
 
@@ -142,9 +149,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter4
 
@@ -162,9 +171,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter5
 
@@ -183,9 +194,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter6
 
@@ -204,9 +217,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter7
 
@@ -225,9 +240,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter8
 
@@ -246,9 +263,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter9
 
@@ -267,9 +286,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter10
 
@@ -288,9 +309,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter11
 
@@ -309,9 +332,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter12
 
@@ -330,9 +355,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter13
 
@@ -351,9 +378,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter14
 
@@ -372,9 +401,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter 15 Databases
 
@@ -393,9 +424,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter16
 
@@ -414,9 +447,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter17
 
@@ -435,9 +470,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter18
 
@@ -456,9 +493,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter19
 
@@ -477,9 +516,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 ### Chapter20
 
@@ -497,9 +538,11 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 
----
-
 [Back to Content](#content)
+
+<br>
+
+---
 
 
 
