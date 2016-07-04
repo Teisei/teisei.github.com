@@ -7,6 +7,7 @@ title: Solutions for Cracking the Coding Interview
 categories: Java
 ---
 
+[Go to end](#end)
 
 <a name='#content'></a>
 
@@ -164,6 +165,9 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 
 ### Chapter 20 Hard
+
+
+### end
 
 
 
