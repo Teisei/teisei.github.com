@@ -9,7 +9,7 @@ categories: Java
 
 ### Content
 
-[目录](#content)
+[目录](#jump1)
 
 ---
 
@@ -118,7 +118,7 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 ### Chapter 20 Hard
 
 
-<a name='content'>跳转到这里：</a>
+<a name='jump1'>跳转到这里：</a>
 
 
 <br>
