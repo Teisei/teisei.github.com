@@ -29,8 +29,15 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 ---
 
+font size
 
+<font size='4'>hell world</font>
 
+<font size='5'>hell world</font>
+
+<font size='6'>hell world</font>
+
+---
 
 
 

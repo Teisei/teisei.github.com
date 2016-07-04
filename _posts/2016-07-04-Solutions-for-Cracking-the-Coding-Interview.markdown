@@ -7,40 +7,56 @@ title: Solutions for Cracking the Coding Interview
 categories: Java
 ---
 
-[Go to end](#end)
-
-<a name='#content'></a>
-
 ### Content
 
-[1. Array and String](#jump1)
+[1. Array and String](#Chapter1)
 
-[2. Linked Lists](#jump2)
+[2. Linked Lists](#Chapter2)
 
-[3. Stack and Queues](#jump3)
+[3. Stack and Queues](#Chapter3)
 
-[4. Tree and Graphs](#jump4)
+[4. Tree and Graphs](#Chapter4)
 
-[5. Bit Manipulation](#jump5)
+[5. Bit Manipulation](#Chapter5)
 
-[6. Brain Teasers](#jump6)
+[6. Brain Teasers](#Chapter6)
 
-[7. Object Oriented Design](#jump7)
+[7. Object Oriented Design](#Chapter7)
 
-[8. Recursion](#jump8)
+[8. Recursion](#Chapter8)
 
-[9. Sorting and Search](#jump9)
+[9. Sorting and Search](#Chapter9)
 
-[10. Mathematical](#jump10)
+[10. Mathematical](#Chapter10)
 
-[11. System Design and Memory Limits](#jump11)
+[11. System Design and Memory Limits](#Chapter11)
 
+[12. Testing](#Chapter12)
+
+[13. C++](#Chapter13)
+
+[14. Java](#Chapter14)
+
+[15. Databases](#Chapter15)
+
+[16. Low Level](#Chapter16)
+
+[17. Networking](#Chapter17)
+
+[18. Threads and Locks](#Chapter18)
+
+[19. Moderate](#Chapter19)
+
+[20. Hard](#Chapter20)
+
+<br>
 
 ---
 
-<a name='#jump1'></a>
+### Chapter1
 
-### Chapter 1 Arrays and Strings
+<font size='4'>Array and Strings</font>
+
 
 #### 1.1 Implement an algorithm to determine if a string has all unique characters. What if you can not use additional data structures?
 
@@ -84,90 +100,407 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 <br>
 
+
+
+
+
+
+
+
+
 ---
 
-<br>
+[Back to Content](#content)
+
+### Chapter2
+
+<font size='4'>Linked Lists</font>
 
 
-<a name='#jump2'></a>
+
+
+
+
+
+
+
+
+---
 
 [Back to Content](#content)
 
-### Chapter 2 Linked Lists
+### Chapter3
 
-
-
-<a name='#jump3'></a>
-
-[Back to Content](#content)
-
-### Chapter 3 Stack and Queues
+<font size='4'>Stack and Queues</font>
 
 
 
 
-<a name='#jump4'></a>
-
-[Back to Content](#content)
-
-### Chapter 4 Tree and Graphs
 
 
 
 
-<a name='#jump5'></a>
+
+
+---
 
 [Back to Content](#content)
 
-### Chapter 5 Bit Manipulation
+### Chapter4
+
+<font size='4'>Tree and Graphs</font>
 
 
-### Chapter 6 Brain Teasers
 
 
-### Chapter 7 Object Oriented Design
 
 
-### Chapter 8 Recursion
 
 
-### Chapter 9 Sorting and Searching
 
 
-### Chapter 10 Mathematical
 
 
-### Chapter 11 System Design and Memory Limits
+
+---
+
+[Back to Content](#content)
+
+### Chapter5
 
 
-### Chapter 12 Testing
+<font size='4'>Bit Manipulation</font>
 
 
-### Chapter 13 C++
 
 
-### Chapter 14 Java
 
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter6
+
+
+<font size='4'>Brain Teasers</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter7
+
+
+<font size='4'>Object Oriented Design</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter8
+
+
+<font size='4'>Recursion</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter9
+
+
+<font size='4'>Sorting and Searching</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter10
+
+
+<font size='4'>Mathematical</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter11
+
+
+<font size='4'>System Design and Memory Limits</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter12
+
+
+<font size='4'>Testing</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter13
+
+
+<font size='4'>C++</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter14
+
+
+<font size='4'>Java</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
 
 ### Chapter 15 Databases
 
 
-### Chapter 16 Low Level
+<font size='4'>Tree and Graphs</font>
 
 
-### Chapter 17 Networking
 
 
-### Chapter 18 Threads and Locks
 
 
-### Chapter 19 Moderate
 
 
-### Chapter 20 Hard
 
 
-### end
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter16
+
+
+<font size='4'>Low Level</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter17
+
+
+<font size='4'>Networking</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter18
+
+
+<font size='4'>Threads and Locks</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter19
+
+
+<font size='4'>Moderate</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
+### Chapter20
+
+<font size='4'>Hard</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
 
 
 
@@ -184,4 +517,21 @@ public class Teisei {
         System.out.println("Hello world! This is Teisei's blog");
     }
 }
-{% endhighlight %}
+{% endhighlight %}<font size='4'>Tree and Graphs</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+
