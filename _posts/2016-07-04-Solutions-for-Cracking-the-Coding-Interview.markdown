@@ -39,8 +39,6 @@ categories: Java
 
 <a name='#jump1'></a>
 
-[Back to Content](#content)
-
 ### Chapter 1 Arrays and Strings
 
 #### 1.1 Implement an algorithm to determine if a string has all unique characters. What if you can not use additional data structures?
@@ -100,6 +98,8 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 <a name='#jump3'></a>
 
+[Back to Content](#content)
+
 ### Chapter 3 Stack and Queues
 
 
@@ -107,12 +107,16 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 <a name='#jump4'></a>
 
+[Back to Content](#content)
+
 ### Chapter 4 Tree and Graphs
 
 
 
 
 <a name='#jump5'></a>
+
+[Back to Content](#content)
 
 ### Chapter 5 Bit Manipulation
 
