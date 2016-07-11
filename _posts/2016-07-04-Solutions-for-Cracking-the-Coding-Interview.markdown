@@ -94,15 +94,95 @@ We can reduce the space usage a little bit by using a bit vector. We will assume
 
 #### 1.2 Write code to reverse a C-Style String. (C-Style means that "abcd" is represented as five characters, including the null character.)
 
+Solution:
+This is a classic interview question. The only "gotcha" is to try to do it in place, and to be careful for the null character.
+
+	void reverse(char *str) {
+		char * end = str;
+		char tmp;
+		if (str) {
+			while (*end) {
+				++end;
+			}
+			--end;
+			while (str < end) {
+				tmp = *str;
+				*str++ = *end;
+				*end-- = tmp;
+			}
+		}
+	}
 
 
 <br>
 
-#### 1.3 
+#### 1.3 Design an algorithm and write code to remove the duplicate characters in a string without using any additional buffer. NOTE: One or two additional variables are fine. An extra copy of the array is not.
+FOLLOW UP: Write the test cases for this method.
+
+Solution:
+First, ask yourself, what does the interviewer mean by an additional buffer? Can we use an additional array of constant size?
+
+Algorithm - No (large) Additional Memory:
+1. For each character, check if it is a duplicate of already found characters.
+2. Skip duplicate characters and update the non duplicate characters.
+
+Time complexity is O(n^2).
+
+	public static void removeDuplicates(char[] str) {
+		if (str == null) return;
+		int len = str.length;
+		
+		int tail = 1;
+		
+		for (int i = 1; i < len; ++i) {
+			int j;
+			for (j = 0; j < tail; ++j) {
+				if (str[i] == str[j]) break;
+			}
+			if(j == tail) {
+				str[tail] = str[i];
+				++tail;
+			}
+		}
+		str[tail] = 0;
+	}
+	
+	Test case:
+	1. String does not contain any duplicates, e.g.: abcd
+	2. String contains all duplicates, e.g.: aaaa
+	3. Null string
+	4. String with all continuous duplicates, e.g.:aaabbb
+	5. String with non-contiguous duplicates, e.g.: abababa
+
+Algorithm - With additional memory of constant size
+
+	public static void removeDuplicatesEff(char[] str) {
+		if (str == null) return;
+		int len = str.length;
+		if (len < 2) return;
+		boolean[] hit = new boolean[256];
+		for (int i = 0; i < 256; ++i) {
+			hit[i] = false;
+		}
+		hit[str[0]] = true;
+		int tail = 1;
+		for (int i = 1; i < len; ++i) {
+			if (!hit[str[i]]) {
+				str[tail] = str[i];
+				++tail;
+				hit[str[i]] = true;
+			}
+		}
+		str[tail] = 0;
+	}
+	Test cases:
+	1. String does not contain any duplicates, e.g. :abcd
+	2. String contains all duplicates, e.g. : aaaa	3. Null string	4. Empty string	5. String with all continuous duplicates, e.g. : aaabbb	6. String with non-contiguous duplicates, e.g. : abababa
+
 
 <br>
 
-
+#### 1.4 Write 
 
 
 
