@@ -1,0 +1,215 @@
+\documentclass{resume}
+\usepackage[slantfont,boldfont,CJKnumber]{xeCJK}
+\usepackage{bm}
+\setCJKmainfont[BoldFont={SimHei}, ItalicFont={KaiTi}]{SimSun}
+\setCJKsansfont{KaiTi}
+\setCJKmonofont{STFangsong}
+
+
+\setCJKfamilyfont{song}{SimSun}
+\setCJKfamilyfont{kai}{KaiTi}
+\setCJKfamilyfont{hei}{SimHei}
+\setCJKfamilyfont{yao}{FZYaoTi}
+\setCJKfamilyfont{hwkai}{STKaiti}
+\setCJKfamilyfont{hwfs}{STFangsong}
+\setCJKfamilyfont{hws}{STSong}
+\setCJKfamilyfont{fs}{FangSong}
+\setCJKfamilyfont{yahei}{SimHei}
+
+\newcommand\song{\CJKfamily{song}}
+\newcommand\kai{\CJKfamily{kai}}
+\newcommand\hei{\CJKfamily{hei}}
+\newcommand\yao{\CJKfamily{yao}}
+\newcommand\hwkai{\CJKfamily{hwkai}}
+\newcommand\hwfs{\CJKfamily{hwfs}}
+\newcommand\hws{\CJKfamily{hws}}
+\newcommand\fs{\CJKfamily{fs}}
+\newcommand\yahei{\CJKfamily{yahei}}
+
+\newcommand{\erhao}{\fontsize{22pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{16pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosanhao}{\fontsize{15pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.5pt}{\baselineskip}\selectfont}
+
+\newcommand{\MyName}[1]{ % Name
+		\sanhao \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\wuhao \usefont{OT1}{phv}{m}{n}\hfill #1
+		\par \normalsize \normalfont}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[colorlinks, citecolor=red]{hyperref}
+
+\name{\erhao\MyName{丁铖}} % Your name
+%\address{\MySlogan{中山北路3663号,华东师范大学,200062}}
+\address{\MySlogan{(+86)185 1621 6459}} % Your phone number and email
+\address{\MySlogan{teisei.din@gmail.com}}
+
+%\name{\erhao\MyName{丁铖}} % Your name
+%\address{\MySlogan{中山北路3663号,华东师范大学,200062}}
+%\address{\MySlogan{(+86)185 1621 6459}} % Your phone number and email
+%\address{\MySlogan{teisei.din@gmail.com}}
+
+
+\begin{document}
+
+%-----------------------------------------------------------------
+%---------------------------意向----------------------------------
+%---------------------------意向----------------------------------
+%-----------------------------------------------------------------
+
+%\begin{rSection}{\fs \sanhao {意向}}
+%\sihao \textit{软件工程师—— 金融服务系统、应用开发、数据分析}\\
+%\sihao \textit{软件工程师——金融服务系统、应用开发，数据分析}
+%\end{rSection}
+
+%-----------------------------------------------------------------
+%-------------------------- 教育经历------------------------------
+%---------------------------教育经历------------------------------
+%-----------------------------------------------------------------
+
+\begin{rSection}{\fs \sanhao {教育经历}}
+\sihao \textbf {硕士，华东师范大学，\href{http://database.ecnu.edu.cn}{海量计算研究所}} \hfill {\em 2014,09-2017,06}\\
+\sihao \textit{导师：\href{https://wnqian.wordpress.com/}{钱卫宁}}   
+\sihao \textit{研究方向：大数据分析，社交媒体分析}\\
+%\sihao \textit{课程：软件理论基础，算法设计与分析，数据库理论，高级信息检索，数据管理与实现，计算广告学，大数据处理方法，系统体系结构,海量数据分析与挖掘 }\\
+\\
+\sihao \textbf {本科， 大连海事大学，信息科学与技术学院} \hfill {\em 2010,09-2014,06}\\
+\sihao \textit{专业：软件工程(日语强化)}
+\sihao \textit{综合绩点：}\normalfont{3.62/4.0 }  \\
+\sihao \textit{主修课程：数据结构，算法设计}\\
+
+
+\end{rSection}
+
+%-----------------------------------------------------------------
+%-------------------------- 项目经历------------------------------
+%---------------------------项目经历------------------------------
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+%-------------------------- 实习经历------------------------------
+%---------------------------实习经历------------------------------
+%-----------------------------------------------------------------
+
+\begin{rSection}{\fs \sanhao {实习经历}}
+	\sihao \textbf{Splunk上海研发中心}  \hfill {\em 2016,07 - 至今}{ 软件工程师}{}\\
+	\sihao \textit{    
+		开发一个可以对多个Splunk集群进行实时性能监控和行为分析的Splunk应用。}\\
+	\sihao \textit{    相关技术：Splunk知识, Python, 日志抓取，RESTful, 分布式系统。}\\
+	\\
+	\sihao \textbf{Infosys Labs，班加罗尔}  \hfill {\em 2015,10-2015,12}{ 研发工程师}{}\\
+	\sihao \textit{    根据员工信息和项目分配信息构建企业社交网络，开发Restful Web Service，提供员工、项目的搜索、推荐功能；研究针对项目需求的团队组建问题。}\\
+	\sihao \textit{    相关技术：Java，Neo4j，Lucene，RESTful service，R ，Hadoop ，MapReduce，Zookeeper}
+	\\
+\end{rSection}
+
+
+
+\begin{rSection}{\fs \sanhao {项目经历}}
+%海量web数据内容管理、分析挖掘技术与大型示范应用
+\sihao \textbf {    海量web数据内容管理、分析(863国家项目子课题)} \hfill {\em 2015,03-2015,05}\\
+$\bullet$ \textit{   将从不同网站爬取的GB级别的新闻数据进行整合、存储、索引；}\\
+$\bullet$ \textit{   用自然语言处理的方法从数据集中抽取公司名、公司之间关系；}\\
+$\bullet$ \textit{   相关技术：Java, 自然语言处理，Lucene，MySQL。}\\
+\\
+\\
+%---------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
+\sihao \textbf {海量集群行为数据的聚融与管理(973国家项目子课题)} \hfill {\em 2014,11-2015,01}\\
+$\bullet$ \textit{  开发分布式爬虫爬取TB级别的微博数据，并将数据存储于HDFS；}\\
+$\bullet$ \textit{  编写MapReduce程序处理微博数据；}\\
+$\bullet$ \textit{  相关技术：Java, 微博API, Hadoop, MapReduce, Kafka。}\\
+\\
+%---------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
+%\sihao \textbf { MIPS系统模拟器} \hfill {\em 2013,07-2014,05}\\
+%$\bullet$ \textit{  模拟MIPS CPU来执行一段合法程序指令段；}\\
+%$\bullet$ \textit{   运用了面向对象的编程方法。}\\
+%\\
+%---------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
+%\sihao \textbf {      拼写检错器} \hfill {\em 2014,10-2014,11}\\
+%$\bullet$ \textit{    编写基于词典, 编辑距离和k-gram索引的拼写纠错器；}\\
+%$\bullet$ \textit{    相关技术: TrieTree, HMM, Lucene, Java。}\\
+%\\
+%---------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
+%\sihao \textbf {      校园失物招领系统设计与开发} \hfill {\em 2013,07-2014,05}\\
+%$\bullet$ \textit {     设计与开发一个帮助觅物的人来寻找丢失的物品；}\\
+%$\bullet$\textit {      训练了一个用于匹配失主和物品的向量空间模型。}\\
+%\\
+%---------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
+%\sihao \textbf {     安卓项目} \hfill {\em 2013,02-2013,04}\\
+%$\bullet$ \textit{   一个通过模拟PC的键盘操作来远程控制PC的安卓APP。}\\
+%$\bullet$ \textit{   界面类似BBC News的校园新闻APP。}\\
+%$\bullet$ \textit{   相关技术: Android开发, 多线程, Java, 安卓传感器。}\\
+%\\
+\end{rSection}
+
+
+
+
+%\begin{rSection}{\fs \sanhao {论文情况}}
+%\begin{itemize}
+%\item {\bf 软件著作权：微博事件实时分析系统.}
+%\item {\bf 专利：一种社交媒体中热点微博数据的自适应取样方法.}
+%\item {\bf 基于地图匹配的时空轨迹匿名算法.} (第三作者). {\em  中国计算机网络与信息安全学术会议 2013.}
+%\item {\bf  面向社交数据流连续查询的基准评测.} (第一作者). {\em   华师大学报《内存计算数据管理》专刊 2014.}
+%\item {\bf BSMA: A Benchmark for Analytical Queries over Socail Media Data.} (第二作者). {\em VLDB(Demo) 2014.}
+%\item {\bf Sampling Social Streams for Hot Social Events Analytics.} (第一作者). {\em SSEPM(International Workshop on Scalable Social Event Processing and Management) ICDE 2015.}
+%\end{itemize}
+%\end{rSection}
+
+
+%-----------------------------------------------------------------
+%-------------------------- 荣誉证书------------------------------
+%---------------------------荣誉证书------------------------------
+%-----------------------------------------------------------------
+
+\begin{rSection}{\fs \sanhao {荣誉与证书}}
+	\sihao \textit{触宝科技2016黑客马拉松第二名} \hfill {\em 2016} \\
+	%\sihao \textit{大连海事大学优秀毕业生} \hfill {\em 2014} \\
+	\sihao \textit{微软编程之美2016复赛第36名(前10\%)} \hfill {\em 2016} \\
+	\sihao \textit{国际大学生程序设计大赛中俄挑战赛, 第21名} \hfill {\em 2013} \\
+	\sihao \textit{优秀学生奖学金(前5\%)} \hfill {\em 2011-2014} \\
+\end{rSection}
+
+
+%-----------------------------------------------------------------
+%-------------------------- 专业技能------------------------------
+%---------------------------专业技能------------------------------
+%-----------------------------------------------------------------
+
+
+\begin{rSection}{\fs \sanhao {技能}}
+	\sihao \textbf {专业技能}\\
+	\sihao \textit{ 熟练掌握：数据结构与算法设计, JAVA, Hadoop与MapReduce;\\
+		基本掌握: Git, Linux, Python, C, RESTful, Lucene, Kafka, Zookeeper, Airflow等。}\\
+	
+	\sihao \textbf {外语能力}\\
+	\sihao \textit{CET-6}\\
+	\sihao \textit{国际日本语能力测试N2}\\
+\end{rSection}
+
+
+\begin{rSection}{\fs \sanhao {社会活动}}
+\sihao \textit{ 野生动物保护宣传活动} \hfill {\em 2015, 印度班加罗尔} \\
+\sihao \textit{CIEE国际学生中文辅导} \hfill {\em 2014，中国上海} \\
+\sihao \textit{VLDB暑期学校志愿者} \hfill {\em 2014, 中国上海} \\
+\sihao \textit{ Cookpad tech talk} \hfill {\em 2013, 日本东京} 
+\end{rSection}
+
+\begin{rSection}{\fs \sanhao { 兴趣爱好}}
+	\sihao \textit{ 解题，开源，软件工程，烹饪，运动，旅行，摄影，志愿者} \hfill \\
+\end{rSection}
+
+\end{document} 
