@@ -1,0 +1,64 @@
+x---
+layout: post
+location: Shanghai, China
+tldr: false
+audio: false
+title: 2016码农校招内推消息汇总
+categories: Job
+---
+
+### 内推
+
+公司 | 开始  | 结束 | 链接 | 邮箱 | 笔试
+--- | --- | --- | --- | --- | ---
+百度 | 7.30 | 8.20 | http://cv.qiaobutang.com/post/55bb47d90cf2a2844d9f6947 | |
+阿里 |  | 8.18 | | |
+腾讯 | | | | |
+网易 | 7.18 | 7.30 | 
+网易游戏 | 
+360 | 8.01 | 
+饿了么 | 8.12 | 8.31 | http://cv.qiaobutang.com/post/57b2c6bd0cf2692fcf1541e6?from=db | --- | --- |
+爱奇艺 | 8.15 | 9.10 | http://campus.chinahr.com/2017/aiqiyi/jobs.asp | | |
+美团 | 8.15 | 9.07 | |  | 9.09 |
+
+
+### 校招
+
+公司 | 开始  | 结束 | 链接 | 笔试 | 
+--- | --- | --- | --- | --- | ---
+阿里 | 7.18 | 9.6 | 
+百度 | |  10.10 | | 10.19
+网易游戏 | 7.20 | 9.15 | | 9.15~10.15 | 
+
+
+
+<br>
+<br>
+<br>
+
+---
+
+{% highlight java %}
+public class Teisei {
+    public static void main(String args[]){
+        System.out.println("Hello world! This is Teisei's blog");
+    }
+}
+{% endhighlight %}<font size='4'>Tree and Graphs</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[Back to Content](#content)
+

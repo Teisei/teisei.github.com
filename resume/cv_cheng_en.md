@@ -1,8 +1,11 @@
 ## Cheng Ding
 
 ---
+	
+<img src="photo_visa.jpg" width="15%" height="15%" />
 
-<img src="photo_visa.jpg" width="30%" height="30%" />
+- teisei.din@gmail.com, (+86)18516216459
+
 
 ---
 
@@ -42,13 +45,9 @@
 
 ### Education
 
-##### `East China Normal University` 
+`East China Normal University` (Master, Software Engineering, 2014-2017)
 
-Master, Software Engineering, 2014-2017
-
-##### `Dalian Maritime University`
-
-Bachelor, Software Engineering (GPA: 3.62/4.0), 2010-2014
+`Dalian Maritime University` （Bachelor, Software Engineering, 2010-2014）(GPA: 3.62/4.0)
 
 ---
 
@@ -57,6 +56,7 @@ Bachelor, Software Engineering (GPA: 3.62/4.0), 2010-2014
 ##### Technical specialties
 
 Solid knowledge of technologies: Data Structure & Algorithms, Java, Hadoop and MapReduce
+
 Good knowledge of: Git, Linux, Python, C, Lucene, Kafka, Zookeeper, Airflow and so on.
 
 ##### Language proficiency
